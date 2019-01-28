@@ -2,7 +2,7 @@
 
 export DISPLAY=:1
 export VNC_PORT=5901
-export NO_VNC_PORT=6901
+export NO_VNC_PORT=80
 export HOME=/headless
 export TERM=xterm
 export STARTUPDIR=/dockerstartup

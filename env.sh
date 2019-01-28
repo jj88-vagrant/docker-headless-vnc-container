@@ -1,22 +1,6 @@
 #!/usr/bin/env bash
 
-export DISPLAY=:1
-export VNC_PORT=5901
-export NO_VNC_PORT=80
-export HOME=/headless
-export TERM=xterm
-export STARTUPDIR=/dockerstartup
-export INST_SCRIPTS=/headless/install
-export NO_VNC_HOME=/headless/noVNC
-export DEBIAN_FRONTEND=noninteractive
-export VNC_COL_DEPTH=24
-export VNC_RESOLUTION=1280x1024
-export VNC_PW=bbbb9999
-export VNC_VIEW_ONLY=false
 
-export LANG='zh_CN.UTF-8'
-export LANGUAGE='zh_CN:CN'
-export LC_ALL='zh_CN.UTF-8'
 
 sudo apt-get upgrade -y
 sudo apt-get update -y

@@ -8,7 +8,8 @@ cp ./src/ubuntu/install/chrome.sh ./src/ubuntu/install/icewm_ui.sh ./src/ubuntu/
 sudo chmod -R a+x /headless/install/
 cp -R ./src/common/xfce/ /headless/
 
-
+cp ./src/ubuntu/icewm/wm_startup.sh /headless/
+cp -R ./src/ubuntu/icewm/.icewm /headless/.icewm
 sudo mkdir -p /dockerstartup/
 
 sudo cp ./src/common/scripts/chrome-init.sh /dockerstartup/chrome-init.sh

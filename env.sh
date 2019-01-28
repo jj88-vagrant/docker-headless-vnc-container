@@ -18,6 +18,9 @@ export LANG='zh_CN.UTF-8'
 export LANGUAGE='zh_CN:CN'
 export LC_ALL='zh_CN.UTF-8'
 
+sudo apt-get upgrade -y
+sudo apt-get update -y
+
 sudo $INST_SCRIPTS/tools.sh
 sudo $INST_SCRIPTS/install_custom_fonts.sh
 sudo $INST_SCRIPTS/tigervnc.sh
@@ -27,3 +30,7 @@ sudo $INST_SCRIPTS/chrome.sh
 sudo $INST_SCRIPTS/xfce_ui.sh
 sudo $INST_SCRIPTS/libnss_wrapper.sh
 sudo $INST_SCRIPTS/set_user_permission.sh $STARTUPDIR $HOME
+
+sudo apt-get install -y
+sudo apt-get upgrade -y
+sudo apt-get update -y

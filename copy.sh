@@ -1,6 +1,6 @@
 
 #!/usr/bin/env bash
-sudo mkdir -p /headless/novnc
+sudo mkdir -p /headless/noVNC
 sudo mkdir -p /headless/install
 sudo chmod -R 777 /headless
 

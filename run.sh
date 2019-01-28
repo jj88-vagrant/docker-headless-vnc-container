@@ -2,4 +2,4 @@
 
 source copy.sh
 source env.sh
-sh /dockerstartup/vnc_startup.sh
+source /dockerstartup/vnc_startup.sh

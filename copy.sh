@@ -11,6 +11,10 @@ cp -R ./src/common/xfce/ /headless/
 
 sudo mkdir -p /dockerstartup/
 
-sudo cp ./src/common/scripts/*.* /dockerstartup/
+sudo cp ./src/common/scripts/chrome-init.sh /dockerstartup/chrome-init.sh
+sudo cp ./src/common/scripts/vnc_startup.sh /dockerstartup/vnc_startup.sh
+sudo cp ./src/common/scripts/generate_container_user /dockerstartup/generate_container_user
+
+
 
 sudo chmod -R a+x /dockerstartup
